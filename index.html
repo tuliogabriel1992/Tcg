@@ -220,4 +220,4 @@ function show(){const n=wins(),unlocked=milestones.filter(m=>n>=m.need).length;o
 function close(){overlay.classList.remove('open')}
 button.onclick=show;overlay.onclick=e=>{if(e.target===overlay)close()};document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
 })();
-</script><script>if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(console.warn))}</script></body></html>
+</script><script>if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("/sw.js").catch(console.warn))}</script><script src="/community.js" defer></script></body></html>
